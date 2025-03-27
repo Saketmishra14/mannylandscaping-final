@@ -1,3 +1,27 @@
+<div class="top_header">
+  <div class="container-fluid container-xl position-relative d-flex align-items-center">
+  <div class="left">
+    <a href="index.html" class="logo d-flex align-items-center me-auto">
+      <!-- Uncomment the line below if you also wish to use an image logo -->
+      <img src="assets/img/logo.svg" alt="">
+      <!-- <h1 class="sitename">FlexStart</h1> -->
+    </a>
+  </div>
+  <div class="right d-flex   justify-content-between align-items-center">
+    <div class="call-icon ">
+      <div>
+        <img src="assets/img/call-icon.svg" alt="">
+      </div>
+      <div>
+        <p class="m-0 p-0">Call Us</p>
+        <a href="tel:415‑555‑0132">415‑555‑0132</a>
+      </div>
+    </div>
+    <div><a class="btn-getstarted" href="index.html#about">Get a Quote <i class="bi bi-arrow-right"></i></a></div> 
+    
+  </div>
+  </div>
+</div>
 <header id="header" class="header d-flex align-items-center">
     <div class="container-fluid container-xl position-relative d-flex align-items-center ">
 
@@ -54,4 +78,17 @@
 
     </div>
   </header>
-   
+  <script>
+    window.onscroll = function() {myFunction()};
+    
+    var header = document.getElementById("header");
+    var sticky = header.offsetTop;
+    
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("fixed-top");
+      } else {
+        header.classList.remove("fixed-top");
+      }
+    }
+    </script>

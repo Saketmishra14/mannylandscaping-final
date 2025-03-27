@@ -29,7 +29,8 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- Main CSS File -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous"></script>
+      <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
   <link href="assets/css/customStyle.css" rel="stylesheet">
   <script>
@@ -41,32 +42,9 @@
 </head>
 
 <body class="index-page">
-  <div class="top_header">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center">
-    <div class="left">
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/logo.svg" alt="">
-        <!-- <h1 class="sitename">FlexStart</h1> -->
-      </a>
-    </div>
-    <div class="right d-flex   justify-content-between align-items-center">
-      <div class="call-icon ">
-        <div>
-          <img src="assets/img/call-icon.svg" alt="">
-        </div>
-        <div>
-          <p class="m-0 p-0">Call Us</p>
-          <a href="tel:415‑555‑0132">415‑555‑0132</a>
-        </div>
-      </div>
-      <div><a class="btn-getstarted" href="index.html#about">Get a Quote <i class="bi bi-arrow-right"></i></a></div> 
-      
-    </div>
-    </div>
-  </div>
+  
   <div id="headerNav"></div>
-  <header id="header" class="header d-flex align-items-center">
+  <header id="header" class="header d-flex align-items-center d-none">
     <div class="container-fluid container-xl position-relative d-flex align-items-center ">
 
            <!-- <a href="index.html" class="logo d-flex align-items-center me-auto hidden-md"> -->
@@ -1368,8 +1346,8 @@
     </section><!-- /Contact Section -->
 
   </main>
-
-  <footer id="footer" class="footer">
+<div id="footer"></div>
+  <footer id="footer" class="footer d-none">
 
     <div class="footer-newsletter d-none">
       <div class="container">
@@ -1388,7 +1366,7 @@
       </div>
     </div>
 <div id="footer"></div>
-    <div class="container footer-top" id="">
+    <div class="container footer-top d-none" id="">
       <div class="row gy-4">
         <div class="col-lg-4 col-md-6 footer-about">
           <a href="index.html" class="d-flex align-items-center">
@@ -1443,7 +1421,7 @@
       </div>
     </div>
 
-    <div class="container-fluid copyright text-center mt-4">
+    <div class="container-fluid copyright text-center mt-4 d-none">
       <p>© Copyright 2025 <strong class="px-1 sitename">Manny’s Landscaping & Masonry Corp</strong> <span>All Rights Reserved by</span> Manny’s Landscaping & Masonry Corp.</p>
       
     </div>
