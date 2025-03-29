@@ -32,6 +32,7 @@
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
   <link href="assets/css/customStyle.css" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous"></script>
   <script>
     $(document).ready(function() {
         $("#headerNav").load("header.html");
@@ -41,95 +42,7 @@
 </head>
 
 <body class="index-page">
-  <div class="top_header">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center">
-    <div class="left">
-      <a href="index.html" class="logo d-flex align-items-center me-auto">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <img src="assets/img/logo.svg" alt="">
-        <!-- <h1 class="sitename">FlexStart</h1> -->
-      </a>
-    </div>
-    <div class="right d-flex   justify-content-between align-items-center">
-      <div class="call-icon ">
-        <div>
-          <img src="assets/img/call-icon.svg" alt="">
-        </div>
-        <div>
-          <p class="m-0 p-0">Call Us</p>
-          <a href="tel:415‑555‑0132">415‑555‑0132</a>
-        </div>
-      </div>
-      <div><a class="btn-getstarted" href="index.html#about">Get a Quote <i class="bi bi-arrow-right"></i></a></div> 
-      
-    </div>
-    </div>
-  </div>
   <div id="headerNav"></div>
-  <header id="header" class="header d-flex align-items-center">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center ">
-
-           <!-- <a href="index.html" class="logo d-flex align-items-center me-auto hidden-md"> -->
-         <!--Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-         <!-- <h1 class="sitename">FlexStart</h1>  -->
-      <!-- </a> -->
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#hero" class="active">Home<br></a></li>
-          <li><a href="#about">About</a></li>
-          <li class="listing-dropdown"><a href="#"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li>
-                <a href="#">Excavation</a>
-                <a href="#">Drainage Solutions</a>
-                <a href="#">Landscape Maintenance</a>
-              </li>
-              <li>
-                <a href="#">Hardscape Lighting </a>
-                <a href="#">Water Features</a>
-                <a href="#">Stonework</a>
-              </li>
-              <li>
-                <a href="#">Foundation Waterproofing</a>
-                <a href="#">Land Clearing</a>
-              </li>
-            </ul>
-          </li>
-          <li class="listing-dropdown"><a href="#"><span>Masonry</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li>
-                <a href="#">Patios</a>
-                <a href="#">Walkways</a>
-                <a href="#">Driveways</a>
-                <a href="#">Fire Pits</a>
-              </li>
-              <li>
-                <a href="#">Stone Walls & Retaining Walls </a>
-                <a href="#">Stone Veneer</a>
-                <a href="#">Paver Installation</a>
-              </li>
-              <li>
-                <a href="#">Stucco Installation</a>
-                <a href="#">Hardscape</a>
-                <a href="#">Outdoor Living Space</a>
-              </li>
-            </ul>
-          </li>
-          <li><a href="">Tree Services</a></li>
-          <li><a href="">Gallery</a></li>
-          <li><a href="">Reviews</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-     
-
-    </div>
-  </header>
 
   <main class="main">
 
@@ -343,86 +256,10 @@
 
   </main>
 
-  <footer id="footer" class="footer">
-
-    <div class="footer-newsletter d-none">
-      <div class="container">
-        <div class="row justify-content-center text-center">
-          <div class="col-lg-6">
-            <h4>Join Our Newsletter</h4>
-            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-            <form action="forms/newsletter.php" method="post" class="php-email-form">
-              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
+  
 <div id="footer"></div>
-    <div class="container footer-top" id="">
-      <div class="row gy-4">
-        <div class="col-lg-4 col-md-6 footer-about">
-          <a href="index.html" class="d-flex align-items-center">
-            <img src="assets/img/logo.svg" class="logo-footer" alt="">
-          </a>
-          <div class="footer-contact pt-3">
-            <h4>About</h4>
-            <p>Contact our team today and 
-              get a free estimate for any of 
-              the services that we offer. 
-              If you hire us to do the job, 
-              we will work hard and smart 
-              until your expectations are 
-              exceeded.</p>
-          </div>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Useful Links</h4>
-          <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-2 col-md-3 footer-links">
-          <h4>Our Services</h4>
-          <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Excavation Services </a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">hardscape</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#"> land management</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Drainage  solutions</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">fundation water</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">proofing</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">storm cleanup</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-4 col-md-12">
-          <h4>Follow Us</h4>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
-          <div class="social-links d-flex">
-            <a href=""><i class="bi bi-twitter"></i></a>
-            <a href=""><i class="bi bi-facebook"></i></a>
-            <a href=""><i class="bi bi-instagram"></i></a>
-            <a href=""><i class="bi bi-youtube"></i></a>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="container-fluid copyright text-center mt-4">
-      <p>© Copyright 2025 <strong class="px-1 sitename">Manny’s Landscaping & Masonry Corp</strong> <span>All Rights Reserved by</span> Manny’s Landscaping & Masonry Corp.</p>
-      
-    </div>
-
-  </footer>
+    
+    
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
