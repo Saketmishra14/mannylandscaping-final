@@ -473,3 +473,9 @@ font-weight: 700;
             padding: 1rem 1.5rem 0;
             color: var(--heading-color);
         }
+     @media (min-width: 1024px) {
+        .lg-d-flex{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
